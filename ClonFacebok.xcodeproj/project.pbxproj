@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29AF5E932AEEBD9100CAAB82 /* ClonFacebokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5E922AEEBD9100CAAB82 /* ClonFacebokApp.swift */; };
+		29AF5E952AEEBD9100CAAB82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5E942AEEBD9100CAAB82 /* ContentView.swift */; };
+		29AF5E972AEEBD9700CAAB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF5E962AEEBD9700CAAB82 /* Assets.xcassets */; };
+		29AF5E9A2AEEBD9700CAAB82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AF5E992AEEBD9700CAAB82 /* Preview Assets.xcassets */; };
+		29AF5EA52AEEBD9800CAAB82 /* ClonFacebokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5EA42AEEBD9800CAAB82 /* ClonFacebokTests.swift */; };
+		29AF5EB02AEEBD9800CAAB82 /* ClonFacebokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5EAF2AEEBD9800CAAB82 /* ClonFacebokUITests.swift */; };
+		29AF5EC62AEEC3BE00CAAB82 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5EC52AEEC3BE00CAAB82 /* Header.swift */; };
+		29AF5ECE2AEEC62B00CAAB82 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5ECD2AEEC62A00CAAB82 /* Constantes.swift */; };
+		29AF5ED32AEEC8BA00CAAB82 /* CrearPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5ED22AEEC8BA00CAAB82 /* CrearPost.swift */; };
+		29AF5ED82AEED69F00CAAB82 /* miHistoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5ED72AEED69F00CAAB82 /* miHistoria.swift */; };
+		29AF5EDD2AEEDA7500CAAB82 /* HistoriaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5EDC2AEEDA7500CAAB82 /* HistoriaCard.swift */; };
+		29AF5EE22AEEDE6400CAAB82 /* HistoriaSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF5EE12AEEDE6400CAAB82 /* HistoriaSlide.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29AF5EA12AEEBD9800CAAB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29AF5E872AEEBD9100CAAB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29AF5E8E2AEEBD9100CAAB82;
+			remoteInfo = ClonFacebok;
+		};
+		29AF5EAC2AEEBD9800CAAB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29AF5E872AEEBD9100CAAB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29AF5E8E2AEEBD9100CAAB82;
+			remoteInfo = ClonFacebok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29AF5E8F2AEEBD9100CAAB82 /* ClonFacebok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClonFacebok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AF5E922AEEBD9100CAAB82 /* ClonFacebokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClonFacebokApp.swift; sourceTree = "<group>"; };
+		29AF5E942AEEBD9100CAAB82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29AF5E962AEEBD9700CAAB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29AF5E992AEEBD9700CAAB82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29AF5E9B2AEEBD9700CAAB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AF5EA02AEEBD9800CAAB82 /* ClonFacebokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClonFacebokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AF5EA42AEEBD9800CAAB82 /* ClonFacebokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClonFacebokTests.swift; sourceTree = "<group>"; };
+		29AF5EA62AEEBD9800CAAB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AF5EAB2AEEBD9800CAAB82 /* ClonFacebokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClonFacebokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AF5EAF2AEEBD9800CAAB82 /* ClonFacebokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClonFacebokUITests.swift; sourceTree = "<group>"; };
+		29AF5EB12AEEBD9800CAAB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AF5EC52AEEC3BE00CAAB82 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		29AF5ECD2AEEC62A00CAAB82 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		29AF5ED22AEEC8BA00CAAB82 /* CrearPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearPost.swift; sourceTree = "<group>"; };
+		29AF5ED72AEED69F00CAAB82 /* miHistoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miHistoria.swift; sourceTree = "<group>"; };
+		29AF5EDC2AEEDA7500CAAB82 /* HistoriaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriaCard.swift; sourceTree = "<group>"; };
+		29AF5EE12AEEDE6400CAAB82 /* HistoriaSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriaSlide.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AF5E8C2AEEBD9100CAAB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AF5E9D2AEEBD9800CAAB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AF5EA82AEEBD9800CAAB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AF5E862AEEBD9100CAAB82 = {
+			isa = PBXGroup;
+			children = (
+				29AF5E912AEEBD9100CAAB82 /* ClonFacebok */,
+				29AF5EA32AEEBD9800CAAB82 /* ClonFacebokTests */,
+				29AF5EAE2AEEBD9800CAAB82 /* ClonFacebokUITests */,
+				29AF5E902AEEBD9100CAAB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AF5E902AEEBD9100CAAB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AF5E8F2AEEBD9100CAAB82 /* ClonFacebok.app */,
+				29AF5EA02AEEBD9800CAAB82 /* ClonFacebokTests.xctest */,
+				29AF5EAB2AEEBD9800CAAB82 /* ClonFacebokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AF5E912AEEBD9100CAAB82 /* ClonFacebok */ = {
+			isa = PBXGroup;
+			children = (
+				29AF5EC42AEEBE6B00CAAB82 /* comentarios */,
+				29AF5EC32AEEBE6300CAAB82 /* historias */,
+				29AF5EC12AEEBE3D00CAAB82 /* posteos */,
+				29AF5EC02AEEBE0700CAAB82 /* Utilidades */,
+				29AF5E922AEEBD9100CAAB82 /* ClonFacebokApp.swift */,
+				29AF5E942AEEBD9100CAAB82 /* ContentView.swift */,
+				29AF5E962AEEBD9700CAAB82 /* Assets.xcassets */,
+				29AF5E9B2AEEBD9700CAAB82 /* Info.plist */,
+				29AF5E982AEEBD9700CAAB82 /* Preview Content */,
+				29AF5EC52AEEC3BE00CAAB82 /* Header.swift */,
+				29AF5ECD2AEEC62A00CAAB82 /* Constantes.swift */,
+			);
+			path = ClonFacebok;
+			sourceTree = "<group>";
+		};
+		29AF5E982AEEBD9700CAAB82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29AF5E992AEEBD9700CAAB82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29AF5EA32AEEBD9800CAAB82 /* ClonFacebokTests */ = {
+			isa = PBXGroup;
+			children = (
+				29AF5EA42AEEBD9800CAAB82 /* ClonFacebokTests.swift */,
+				29AF5EA62AEEBD9800CAAB82 /* Info.plist */,
+			);
+			path = ClonFacebokTests;
+			sourceTree = "<group>";
+		};
+		29AF5EAE2AEEBD9800CAAB82 /* ClonFacebokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29AF5EAF2AEEBD9800CAAB82 /* ClonFacebokUITests.swift */,
+				29AF5EB12AEEBD9800CAAB82 /* Info.plist */,
+			);
+			path = ClonFacebokUITests;
+			sourceTree = "<group>";
+		};
+		29AF5EC02AEEBE0700CAAB82 /* Utilidades */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilidades;
+			sourceTree = "<group>";
+		};
+		29AF5EC12AEEBE3D00CAAB82 /* posteos */ = {
+			isa = PBXGroup;
+			children = (
+				29AF5ED22AEEC8BA00CAAB82 /* CrearPost.swift */,
+			);
+			path = posteos;
+			sourceTree = "<group>";
+		};
+		29AF5EC32AEEBE6300CAAB82 /* historias */ = {
+			isa = PBXGroup;
+			children = (
+				29AF5ED72AEED69F00CAAB82 /* miHistoria.swift */,
+				29AF5EDC2AEEDA7500CAAB82 /* HistoriaCard.swift */,
+				29AF5EE12AEEDE6400CAAB82 /* HistoriaSlide.swift */,
+			);
+			path = historias;
+			sourceTree = "<group>";
+		};
+		29AF5EC42AEEBE6B00CAAB82 /* comentarios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = comentarios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AF5E8E2AEEBD9100CAAB82 /* ClonFacebok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AF5EB42AEEBD9800CAAB82 /* Build configuration list for PBXNativeTarget "ClonFacebok" */;
+			buildPhases = (
+				29AF5E8B2AEEBD9100CAAB82 /* Sources */,
+				29AF5E8C2AEEBD9100CAAB82 /* Frameworks */,
+				29AF5E8D2AEEBD9100CAAB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClonFacebok;
+			productName = ClonFacebok;
+			productReference = 29AF5E8F2AEEBD9100CAAB82 /* ClonFacebok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29AF5E9F2AEEBD9800CAAB82 /* ClonFacebokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AF5EB72AEEBD9800CAAB82 /* Build configuration list for PBXNativeTarget "ClonFacebokTests" */;
+			buildPhases = (
+				29AF5E9C2AEEBD9800CAAB82 /* Sources */,
+				29AF5E9D2AEEBD9800CAAB82 /* Frameworks */,
+				29AF5E9E2AEEBD9800CAAB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AF5EA22AEEBD9800CAAB82 /* PBXTargetDependency */,
+			);
+			name = ClonFacebokTests;
+			productName = ClonFacebokTests;
+			productReference = 29AF5EA02AEEBD9800CAAB82 /* ClonFacebokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29AF5EAA2AEEBD9800CAAB82 /* ClonFacebokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AF5EBA2AEEBD9800CAAB82 /* Build configuration list for PBXNativeTarget "ClonFacebokUITests" */;
+			buildPhases = (
+				29AF5EA72AEEBD9800CAAB82 /* Sources */,
+				29AF5EA82AEEBD9800CAAB82 /* Frameworks */,
+				29AF5EA92AEEBD9800CAAB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AF5EAD2AEEBD9800CAAB82 /* PBXTargetDependency */,
+			);
+			name = ClonFacebokUITests;
+			productName = ClonFacebokUITests;
+			productReference = 29AF5EAB2AEEBD9800CAAB82 /* ClonFacebokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AF5E872AEEBD9100CAAB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					29AF5E8E2AEEBD9100CAAB82 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					29AF5E9F2AEEBD9800CAAB82 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 29AF5E8E2AEEBD9100CAAB82;
+					};
+					29AF5EAA2AEEBD9800CAAB82 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 29AF5E8E2AEEBD9100CAAB82;
+					};
+				};
+			};
+			buildConfigurationList = 29AF5E8A2AEEBD9100CAAB82 /* Build configuration list for PBXProject "ClonFacebok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29AF5E862AEEBD9100CAAB82;
+			productRefGroup = 29AF5E902AEEBD9100CAAB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AF5E8E2AEEBD9100CAAB82 /* ClonFacebok */,
+				29AF5E9F2AEEBD9800CAAB82 /* ClonFacebokTests */,
+				29AF5EAA2AEEBD9800CAAB82 /* ClonFacebokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AF5E8D2AEEBD9100CAAB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AF5E9A2AEEBD9700CAAB82 /* Preview Assets.xcassets in Resources */,
+				29AF5E972AEEBD9700CAAB82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AF5E9E2AEEBD9800CAAB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AF5EA92AEEBD9800CAAB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AF5E8B2AEEBD9100CAAB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AF5ED82AEED69F00CAAB82 /* miHistoria.swift in Sources */,
+				29AF5E952AEEBD9100CAAB82 /* ContentView.swift in Sources */,
+				29AF5EE22AEEDE6400CAAB82 /* HistoriaSlide.swift in Sources */,
+				29AF5ECE2AEEC62B00CAAB82 /* Constantes.swift in Sources */,
+				29AF5EDD2AEEDA7500CAAB82 /* HistoriaCard.swift in Sources */,
+				29AF5ED32AEEC8BA00CAAB82 /* CrearPost.swift in Sources */,
+				29AF5EC62AEEC3BE00CAAB82 /* Header.swift in Sources */,
+				29AF5E932AEEBD9100CAAB82 /* ClonFacebokApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AF5E9C2AEEBD9800CAAB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AF5EA52AEEBD9800CAAB82 /* ClonFacebokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AF5EA72AEEBD9800CAAB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AF5EB02AEEBD9800CAAB82 /* ClonFacebokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29AF5EA22AEEBD9800CAAB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29AF5E8E2AEEBD9100CAAB82 /* ClonFacebok */;
+			targetProxy = 29AF5EA12AEEBD9800CAAB82 /* PBXContainerItemProxy */;
+		};
+		29AF5EAD2AEEBD9800CAAB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29AF5E8E2AEEBD9100CAAB82 /* ClonFacebok */;
+			targetProxy = 29AF5EAC2AEEBD9800CAAB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29AF5EB22AEEBD9800CAAB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29AF5EB32AEEBD9800CAAB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29AF5EB52AEEBD9800CAAB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ClonFacebok/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ClonFacebok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.edu.sv..ClonFacebok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29AF5EB62AEEBD9800CAAB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ClonFacebok/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ClonFacebok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.edu.sv..ClonFacebok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29AF5EB82AEEBD9800CAAB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClonFacebokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.edu.sv..ClonFacebokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClonFacebok.app/ClonFacebok";
+			};
+			name = Debug;
+		};
+		29AF5EB92AEEBD9800CAAB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClonFacebokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.edu.sv..ClonFacebokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClonFacebok.app/ClonFacebok";
+			};
+			name = Release;
+		};
+		29AF5EBB2AEEBD9800CAAB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClonFacebokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.edu.sv..ClonFacebokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClonFacebok;
+			};
+			name = Debug;
+		};
+		29AF5EBC2AEEBD9800CAAB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClonFacebokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utec.edu.sv..ClonFacebokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClonFacebok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AF5E8A2AEEBD9100CAAB82 /* Build configuration list for PBXProject "ClonFacebok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AF5EB22AEEBD9800CAAB82 /* Debug */,
+				29AF5EB32AEEBD9800CAAB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AF5EB42AEEBD9800CAAB82 /* Build configuration list for PBXNativeTarget "ClonFacebok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AF5EB52AEEBD9800CAAB82 /* Debug */,
+				29AF5EB62AEEBD9800CAAB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AF5EB72AEEBD9800CAAB82 /* Build configuration list for PBXNativeTarget "ClonFacebokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AF5EB82AEEBD9800CAAB82 /* Debug */,
+				29AF5EB92AEEBD9800CAAB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AF5EBA2AEEBD9800CAAB82 /* Build configuration list for PBXNativeTarget "ClonFacebokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AF5EBB2AEEBD9800CAAB82 /* Debug */,
+				29AF5EBC2AEEBD9800CAAB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AF5E872AEEBD9100CAAB82 /* Project object */;
+}
